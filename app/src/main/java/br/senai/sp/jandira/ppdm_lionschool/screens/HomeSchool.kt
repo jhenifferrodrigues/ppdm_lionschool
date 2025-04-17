@@ -84,7 +84,8 @@ fun HomeSchool(){
                            .background(color = colorResource(
                                R.color.yellowlindo))
                            .height(8.dp)
-                           .width(70.dp)
+                           .width(200.dp)
+                           .padding(start = 200.dp, end = 20.dp, top = 20.dp)
                    )
                    Text(
                        text = stringResource(R.string.destination),
@@ -111,6 +112,33 @@ fun HomeSchool(){
                            .padding(3.dp)
                    )
                }
+
+               /*Row(
+                   modifier = Modifier.padding(top = 110.dp),
+                   horizontalArrangement = Arrangement.spacedBy(30.dp)
+               ){
+                   Image(
+                       painter = painterResource(R.drawable.youtube),
+                       contentDescription = "Youtube",
+                       modifier = Modifier.size(40.dp)
+                   )
+                   Image(
+                       painter = painterResource(R.drawable.twitter),
+                       contentDescription = "Twitter",
+                       modifier = Modifier.size(40.dp)
+                   )
+                   Image(
+                       painter = painterResource(R.drawable.instagram),
+                       contentDescription = "Instagram",
+                       modifier = Modifier.size(40.dp)
+                   )
+                   Image(
+                       painter = painterResource(R.drawable.facebook),
+                       contentDescription = "Facebook",
+                       modifier = Modifier.size(40.dp)
+                   )
+
+               }*/
            }
 
         }
