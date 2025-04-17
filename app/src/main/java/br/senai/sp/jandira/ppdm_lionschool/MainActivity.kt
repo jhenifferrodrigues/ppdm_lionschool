@@ -16,7 +16,6 @@ import br.senai.sp.jandira.ppdm_lionschool.ui.theme.PPDM_LionSchoolTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContent {
             PPDM_LionSchoolTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->

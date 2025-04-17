@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PPDM_LionSchool</string>
+    <string name="favorite">Find your favorite course</string>
+    <string name="destination">Get to your destination faster, study at the best vocational school in Brazil. Be the best version of yourself</string>
+    <string name="get_started">Get Started</string>
+
 </resources>
